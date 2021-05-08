@@ -1,0 +1,121 @@
+a{
+    text-decoration: none;
+}
+.header {
+    background: #0e0701;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.logo{}
+.logo img {
+    width: 150px;
+    margin-top: -10px;
+    margin-left: -25px;
+}
+.down i {
+    /* margin-left: 5px; */
+    padding: 5px;
+}
+.menu{
+    color: #fff;
+}
+.menu ul {
+    margin-bottom: 0;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 15px 15px;
+    line-height: 42px;
+    position: relative;
+}
+.menu ul li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+}
+.menu ul li a:hover{}
+
+.menu ul li ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+    width: 160px;
+    background: #0e0701;
+    transition: .4s;
+    margin-top: 0px;
+}
+.menu ul li ul li {
+    margin-left: -30px;
+    margin-top: -15px;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.banner{
+    background: url(https://i.ibb.co/3rq0Jk4/photo-1544044469-bee9c259cfb5.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding: 150px 0;
+    margin-top: 65px;
+}
+.banner-text{
+    font-weight: 900;
+}
+.banner-text h1{
+    font-weight: 700;
+}
+.banner-text h5{
+    font-weight: 600;
+}
+
+.body{
+    background: #444444;
+    padding: 70px 0;
+}
+.body-text p{
+    color: #fff;
+    font-weight: 600;
+    line-height: 40px;
+}
+.body-image img{
+    width: 200px;
+}
+
+.service{
+    background: #458B83;
+    padding: 20px 0 20px 0;
+}
+.service-text h1{
+    color: #fff;
+    font-weight: 700;
+}
+.image-section {
+    margin-top: -75px;
+    padding: 100px 100px 0 100px;
+}
+.icon{}
+.icon ul{}
+.icon ul li {
+    display: inline-block;
+    background: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    margin: 5px 13px 0px -10px;
+}
+.icon ul li a{
+    display: inline-block;
+    color: #fff;
+    transition: .4s;
+}
+.icon ul li a:hover{}
